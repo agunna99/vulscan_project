@@ -1,0 +1,50 @@
+{
+  "target": "google.com",
+  "timestamp": "2026-04-14T11:06:09.497568",
+  "duration_seconds": 0,
+  "total_findings": 6,
+  "findings": [
+    {
+      "category": "Header",
+      "severity": "HIGH",
+      "title": "Missing: Strict-Transport-Security",
+      "detail": "HSTS missing \u2014 forces HTTPS, prevents downgrade attacks",
+      "remediation": "Add 'Strict-Transport-Security' to your web server / reverse proxy config"
+    },
+    {
+      "category": "Header",
+      "severity": "HIGH",
+      "title": "Missing: Content-Security-Policy",
+      "detail": "CSP missing \u2014 enables XSS and data injection attacks",
+      "remediation": "Add 'Content-Security-Policy' to your web server / reverse proxy config"
+    },
+    {
+      "category": "Header",
+      "severity": "MEDIUM",
+      "title": "Missing: X-Content-Type-Options",
+      "detail": "MIME sniffing protection missing (set to 'nosniff')",
+      "remediation": "Add 'X-Content-Type-Options' to your web server / reverse proxy config"
+    },
+    {
+      "category": "Header",
+      "severity": "LOW",
+      "title": "Missing: Referrer-Policy",
+      "detail": "Referrer leakage possible",
+      "remediation": "Add 'Referrer-Policy' to your web server / reverse proxy config"
+    },
+    {
+      "category": "Header",
+      "severity": "LOW",
+      "title": "Missing: Permissions-Policy",
+      "detail": "Browser feature permissions not restricted",
+      "remediation": "Add 'Permissions-Policy' to your web server / reverse proxy config"
+    },
+    {
+      "category": "Header",
+      "severity": "LOW",
+      "title": "Version disclosure: Server",
+      "detail": "Value: gws",
+      "remediation": "Remove or suppress the 'Server' response header"
+    }
+  ]
+}
