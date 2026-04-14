@@ -28,7 +28,7 @@ BANNER = f"""{C}
   ╚██╗ ██╔╝██║   ██║██║     ██║╚██╗██║╚════██║██║     ██╔══██║██║╚██╗██║
    ╚████╔╝ ╚██████╔╝███████╗██║ ╚████║███████║╚██████╗██║  ██║██║ ╚████║
     ╚═══╝   ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝
-{RST}{DIM}  DevSecOps Vulnerability Scanner  |  github.com/yourhandle/vulnscan{RST}
+{RST}{DIM}  DevSecOps Vulnerability Scanner  |  github.com/agunna99/vulnscan_project{RST}
 """
 
 # ─── Security Headers to Check ────────────────────────────────────────────────
